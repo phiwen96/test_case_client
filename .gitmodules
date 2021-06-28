@@ -1,0 +1,3 @@
+[submodule "dependencies/ph_network"]
+	path = dependencies/ph_network
+	url = https://github.com/phiwen96/ph_network
