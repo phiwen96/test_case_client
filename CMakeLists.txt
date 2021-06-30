@@ -8,4 +8,7 @@ if (NOT TARGET ph_network)
 	add_subdirectory (dependencies/ph_network)
 endif ()
 
+find_package (Boost 1.75 REQUIRED)
+
+
 add_subdirectory(src)
