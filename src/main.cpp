@@ -10,12 +10,8 @@ using namespace boost::system;
 #define PORT "3333"
 
 
-/**
- connect a socket to a specific server application
- designated by an endpoint when an IP address and
- a protocol port number
- */
-auto main (int argc, char** argv) -> int 
+
+auto run_client = [] ()
 {
     try
     {
@@ -112,6 +108,16 @@ auto main (int argc, char** argv) -> int
          to send data to or receive data from it.
          */
     }
+};
+
+/**
+ connect a socket to a specific server application
+ designated by an endpoint when an IP address and
+ a protocol port number
+ */
+auto main (int, char**) -> int
+{
+    
     
     
     
